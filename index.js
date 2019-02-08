@@ -10,7 +10,9 @@ handle["/start"] = requestHandler.start;
 handle["/upload?"] = requestHandler.upload;
 
 // Pass server the action "route"
-// server.start(router.route, handle);
+// server.start(router.route, handle); 
+
+// Check for change
 
 var MyProtoDeviceAuth = "bc1b1dc815d641d4a436f2724ffdac92";
 var YellowDeviceAuth = "cacfd3ca3ba4440b9a802e99217ca9b5";
